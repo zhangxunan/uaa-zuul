@@ -3,7 +3,7 @@ Redis:
   ports:
     - "6379:6379"
   volumes:
-    - /srv/docker/redis:/var/lib/redis:Z
+    - ~/docker/redis:/var/lib/redis:Z
   restart: always
 
 PostgreSQL:
@@ -18,4 +18,5 @@ PostgreSQL:
     - DB_PASS=yunfei
     - DB_NAME=order
   volumes:
-    - /srv/docker/postgresql:/var/lib/postgresql:Z
+    - ~/docker/postgresql:/var/lib/postgresql:Z
+
