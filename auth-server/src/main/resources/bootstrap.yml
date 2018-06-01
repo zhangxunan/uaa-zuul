@@ -13,8 +13,8 @@ spring:
   datasource:
     platform: postgres
     url: jdbc:postgresql://127.0.0.1:5432/auth
-    username: wang
-    password: yunfei
+    username: zhang
+    password: xunan
     driver-class-name: org.postgresql.Driver
   redis:
     host: 127.0.0.1

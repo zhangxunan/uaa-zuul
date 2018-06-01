@@ -14,9 +14,9 @@ PostgreSQL:
   environment:
     - DEBUG=false
 
-    - DB_USER=wang
-    - DB_PASS=yunfei
-    - DB_NAME=order
+    - DB_USER=zhang
+    - DB_PASS=xunan
+    - DB_NAME=order,auth
   volumes:
     - ~/docker/postgresql:/var/lib/postgresql:Z
 
